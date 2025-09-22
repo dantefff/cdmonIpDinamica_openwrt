@@ -6,10 +6,10 @@ This is a fork over git@github.com:melonius/cdmonIpDinamica.git to make it usabl
 Prerequisites
 =============
 
-You should have installed in oepnwrt the following packages:
+You should have installed in openwrt the following packages:
 * bind-host
 
-You must know the user and password to update your dyndns in cdmon. To get the md5sum of your password you can do:
+You must know the user and password to update your dyndns in cdmon (only available if you have a domain registered in cdmon.com). To get the md5sum of your password you can do:
 
     echo -n "yourPasswordHere" | md5sum
 
